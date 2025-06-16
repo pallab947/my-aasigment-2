@@ -706,9 +706,12 @@ footer{
         width: 90%;
         height: auto;
         padding: 1rem 0;
+
+        
         
         .Fsec-div-txt {
             width: 90%;
+            margin-bottom: 4rem;
             
             h3 {
                 font-size: 1.8rem;
