@@ -679,7 +679,7 @@ footer{
             justify-content: space-between;
             
             div {
-                gap: 1rem;
+                gap: 0.5rem;
                 
                 a {
                     font-size: 0.8rem;
@@ -732,38 +732,22 @@ footer{
     }
     
     /* Image Gallery */
-    .ImageBar {
-        height: auto;
-        
-        .ImageBox {
-            grid-template-columns: 1fr;
-            padding: 1rem 0;
-            
-            .i-box,
-            .ii-box {
-                width: 90%;
-                margin: 1rem auto;
-            }
-            
+    
+    .ImageBar{
+        .ImageBox{
+            width: 90%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
             .i-box {
-                height: 300px;
-                
-                .iBox {
-                    width: 100%;
-                }
+                width: 100%;
+                height: 80%;
             }
-            
-            .ii-box {
-                grid-template-columns: 1fr;
-                gap: 1rem;
-                
-                div {
-                    height: 150px;
-                }
-            }
+
         }
     }
-    
+
     
     .RestRoom {
         height: auto;
