@@ -679,10 +679,10 @@ footer{
             justify-content: space-between;
             
             div {
-                gap: 0.5rem;
+                gap: 0.4rem;
                 
                 a {
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                 }
                 
                 img {
