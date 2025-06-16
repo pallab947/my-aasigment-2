@@ -676,7 +676,7 @@ footer{
         nav {
             width: 90%;
             padding: 0 0.5rem;
-            justify-content: space-between;
+            justify-content: space-around;
             
             div {
                 gap: 0.4rem;
